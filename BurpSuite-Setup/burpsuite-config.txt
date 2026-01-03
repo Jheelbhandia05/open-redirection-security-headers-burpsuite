@@ -1,0 +1,18 @@
+BurpSuite Setup & Configuration
+
+Tool Used:
+BurpSuite Professional
+
+Environment:
+Kali Linux
+
+Configuration Steps:
+1. BurpSuite Professional was launched
+2. Proxy was enabled
+3. Built-in Burp browser was used
+4. HTTP traffic interception was activated
+5. Requests from OWASP Juice Shop were successfully captured
+
+Purpose:
+This setup allows interception and modification of HTTP requests
+required for identifying Open Redirection vulnerabilities.

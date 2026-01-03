@@ -1,0 +1,13 @@
+Mitigation Strategies for Open Redirection
+
+Recommended Fixes:
+1. Validate redirect parameters strictly
+2. Allow only internal URLs (whitelisting)
+3. Avoid user-controlled redirects
+4. Implement proper Content-Security-Policy
+5. Configure Referrer-Policy and Permissions-Policy
+6. Follow OWASP secure coding practices
+
+Outcome:
+Proper validation and security controls can effectively
+prevent Open Redirection vulnerabilities.

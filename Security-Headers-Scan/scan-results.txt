@@ -1,0 +1,31 @@
+Security Headers Scan Results
+
+Target Website:
+https://juice-shop.herokuapp.com/#/
+
+Scan Tool:
+Security Headers (by Snyk)
+
+Scan Date:
+20 December 2025
+
+Overall Security Grade:
+D
+
+Present Security Headers:
+- X-Content-Type-Options
+- X-Frame-Options
+
+Missing / Misconfigured Security Headers:
+- Content-Security-Policy (CSP)
+- Strict-Transport-Security (HSTS)
+- Referrer-Policy
+- Permissions-Policy
+
+Observation:
+The absence of critical security headers increases the attack surface
+and enables client-side vulnerabilities such as Open Redirection and phishing.
+
+Conclusion:
+Due to weak security header implementation, the application was selected
+for further Open Redirection testing using BurpSuite.

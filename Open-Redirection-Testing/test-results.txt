@@ -1,0 +1,24 @@
+Open Redirection Testing Results
+
+Target Application:
+OWASP Juice Shop
+
+Vulnerable Endpoint:
+#/redirect?to=
+
+Payload Used:
+https://juice-shop.herokuapp.com/#/redirect?to=https://google.com
+
+Testing Method:
+- Browser-based testing
+- BurpSuite Repeater
+
+Observation:
+The application redirected the user to an external URL
+without validating the redirect parameter.
+
+Result:
+Open Redirection vulnerability confirmed.
+
+Impact:
+This vulnerability can be exploited to perform phishing attacks.
